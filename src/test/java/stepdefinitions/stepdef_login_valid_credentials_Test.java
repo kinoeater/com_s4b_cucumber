@@ -31,7 +31,7 @@ public class stepdef_login_valid_credentials_Test {
     DesiredCapabilities capabilities = new DesiredCapabilities();
     capabilities.setCapability("chromeOptions", options);
     driver = new ChromeDriver(options);
-    //Thread.sleep(5000);
+    Thread.sleep(5000);
 	}
 	
 	@After
