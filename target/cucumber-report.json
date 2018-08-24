@@ -1,0 +1,241 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7646520570,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef_login_valid_credentials.launchapp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login to S4B with correct credentials",
+        "description": "",
+        "id": "login-successfully-to-s4b;login-to-s4b-with-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1016843142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef_login_valid_credentials.exitapp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 353526249,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "S4B is launched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 1
+                }
+              ],
+              "location": "stepdef_login_valid_credentials.s_B_is_launched(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1319071588,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"username-kandy\"}\n  (Session info: content shell\u003d)\n  (Driver info: chromedriver\u003d2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform\u003dWindows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.31 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027NTS5CG7321YLY\u0027, ip: \u0027192.168.1.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir\u003dD:\\Users\\myol\\AppData\\Local\\Temp\\scoped_dir7816_14073}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dfalse, acceptInsecureCerts\u003dfalse, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 915652e711bd9224846a1c9dc7bc84e3\n*** Element info: {Using\u003did, value\u003dusername-kandy}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat stepdefinitions.stepdef_login_valid_credentials.enter_valid_UC_username(stepdef_login_valid_credentials.java:66)\r\n\tat ✽.When Enter valid UC_username(src/test/resources/features/login.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Enter valid UC_username",
+            "match": {
+              "location": "stepdef_login_valid_credentials.enter_valid_UC_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter valid UC_paserword",
+            "match": {
+              "location": "stepdef_login_valid_credentials.enter_valid_UC_paserword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on UC_login button",
+            "match": {
+              "location": "stepdef_login_valid_credentials.click_on_UC_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "application navigates to  S4B skype login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdef_login_valid_credentials.application_navigates_to_S_B_skype_login_page(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Enter valid skype_username",
+            "match": {
+              "location": "stepdef_login_valid_credentials.enter_valid_skype_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Enter valid skype_pasword",
+            "match": {
+              "location": "stepdef_login_valid_credentials.enter_valid_skype_pasword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click on skype_login button",
+            "match": {
+              "location": "stepdef_login_valid_credentials.click_on_skype_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "save credentials  message appears",
+            "match": {
+              "location": "stepdef_login_valid_credentials.save_credentials_message_appears()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click Ok button",
+            "match": {
+              "location": "stepdef_login_valid_credentials.click_Ok_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user reaches the main page",
+            "match": {
+              "location": "stepdef_login_valid_credentials.user_reaches_the_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click on settings_button",
+            "match": {
+              "location": "stepdef_login_valid_credentials.Click_on_settings_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Click on logout_button",
+            "match": {
+              "location": "stepdef_login_valid_credentials.Click_on_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click on popup_logout_button",
+            "match": {
+              "location": "stepdef_login_valid_credentials.Click_on_popup_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "S4B is launched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 1
+                }
+              ],
+              "location": "stepdef_login_valid_credentials.s_B_is_launched(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "quit the app",
+            "match": {
+              "location": "stepdef_login_valid_credentials.quit_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login successfully to S4B",
+    "description": "",
+    "id": "login-successfully-to-s4b",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/login.feature"
+  }
+]
