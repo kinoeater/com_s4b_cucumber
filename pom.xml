@@ -7,7 +7,7 @@
   <profiles>
   
   <profile>
-  <id>logintest</id>
+  <id>demotest</id>
   
   <build>
     <pluginManagement>
